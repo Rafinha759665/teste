@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de 1000 Linhas com Tags de Texto</title>
+  </head>
+
+<body>
+  <h1>Seção 1: O Que É HTML?</h1>
+  <p>HTML, ou <strong>Linguagem de Marcação de Hipertexto</strong>, é a base da web. Ele define a estrutura e o conteúdo de uma página, usando tags para organizar o texto, imagens e outros elementos. <em>Dominar o HTML é o primeiro passo para criar sites.</em></p>
+  <h2>Fundamentos do HTML</h2>
+  <p>Cada página web que você visita é construída com HTML. Ele utiliza um sistema de tags para "marcar" diferentes partes do conteúdo. Por exemplo, a tag **<p>** cria um parágrafo e a tag **<h1>** cria um título principal.</p>
+  <p>Aqui temos um exemplo de texto que está **<mark>destacado</mark>**. Isso é útil para chamar a atenção para um ponto importante.</p>
+  <p>A tag **<small>** é usada para texto que deve ser menor. <small>Este é um texto com letra pequena.</small></p>
+  <hr>
+  <h1>Seção 2: A Estrutura de Uma Página</h1>
+  <p>A estrutura básica do HTML é composta por tags como **<html>**, **<head>**, e **<body>**. A tag **<head>** contém informações sobre a página que não são exibidas, como o título, enquanto a tag **<body>** contém todo o conteúdo visível.</p>
+  <h2>A Importância dos Títulos</h2>
+  <p>Os títulos, de **<h1>** a **<h6>**, não são apenas para formatação visual. Eles organizam o conteúdo de forma hierárquica, o que é fundamental para a acessibilidade e para o SEO (Otimização para Mecanismos de Busca).</p>
+  <p>Exemplo de um parágrafo com uma **<del>palavra deletada</del>** e **<ins>uma palavra inserida</ins>**. Isso mostra revisões no conteúdo.</p>
+  <hr>
+  <h1>Seção 3: Listas em HTML</h1>
+  <p>As listas são uma maneira eficiente de organizar informações. Existem dois tipos principais de listas: as **não ordenadas** e as **ordenadas**.</p>
+  <h2>Lista Não Ordenada</h2>
+  <p>Uma lista não ordenada utiliza a tag **<ul>** e exibe os itens com marcadores (geralmente bolinhas). A seguir, um exemplo:</p>
+  <ul>
+    <li>HTML é a base da web.</li>
+    <li>CSS estiliza a página.</li>
+    <li>JavaScript adiciona interatividade.</li>
+  </ul>
+  <h2>Lista Ordenada</h2>
+  <p>Uma lista ordenada utiliza a tag **<ol>** e numera os itens automaticamente. Veja o exemplo:</p>
+  <ol>
+    <li>Primeiro passo: Estrutura.</li>
+    <li>Segundo passo: Estilo.</li>
+    <li>Terceiro passo: Funcionalidade.</li>
+  </ol>
+  <hr>
+  <h1>Seção 4: Citações e Abreviaturas</h1>
+  <p>É possível formatar citações e abreviaturas de forma semântica em HTML, melhorando a compreensão do conteúdo por navegadores e leitores de tela.</p>
+  <h2>Citações</h2>
+  <p>Para citações longas que se destacam, usamos a tag **<blockquote>**. Por exemplo:</p>
+  <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+    A tag blockquote é usada para indicar que o texto incluído é uma citação longa de outra fonte.
+  </blockquote>
+  <p>Já para citações curtas, no meio do texto, usamos a tag **<q>**. Como em: Um desenvolvedor disse, **<q>O código é poesia</q>**.</p>
+  <h2>Abreviaturas</h2>
+  <p>A tag **<abbr>** é ideal para abreviações. O atributo `title` mostra o texto completo quando o mouse passa por cima.</p>
+  <p>O **<abbr title="World Wide Web">WWW</abbr>** foi inventado por Tim Berners-Lee.</p>
+  <hr>
+  <h3>Sub-seção de Exemplo</h3>
+  <p>Este é um parágrafo de exemplo para preencher o espaço. É importante praticar a escrita de diferentes tipos de conteúdo.</p>
+  <p>Outro parágrafo. Lembre-se, cada tag `<p>` cria um novo bloco de texto.</p>
+  <h4>Título de Nível 4</h4>
+  <p>Esta é uma linha de texto com uma <br> quebra de linha. A tag **<br>** não tem fechamento.</p>
+  <h5>Título de Nível 5</h5>
+  <p>Aqui temos um texto com <ins>palavras inseridas</ins> e outras <del>palavras deletadas</del>.</p>
+  <h6>Título de Nível 6</h6>
+  <p>Exemplo de texto <sub>subscrito</sub> e texto <sup>sobrescrito</sup>. Útil para fórmulas químicas ou matemáticas.</p>
+  <p>A tag **<pre>** preserva a formatação exata do texto.</p>
+  <pre>
+    Texto pré-formatado
+    mantém os espaços e
+    as quebras de linha.
+  </pre>
+  <p>Outro exemplo de texto. Este texto é **<b>apenas negrito</b>**, sem importância semântica. O texto a seguir é **<strong>importante</strong>**.</p>
+  <p>A **<i>tag i</i>** é para texto itálico, enquanto **<em>a tag em</em>** é para ênfase.</p>
+  <p>Este é um <abbr title="Abreviação">abreviatura</abbr> para testar a tag **<abbr>**. </p>
+  <p>Endereço de exemplo:</p>
+  <address>
+    Rua da Programação, 456<br>
+    Bairro do Código, Cidade Tecnológica<br>
+    País dos Desenvolvedores
+  </address>
+  <hr>
+  
+  <h1>Seção 1: O Que É HTML?</h1>
+  <p>HTML, ou <strong>Linguagem de Marcação de Hipertexto</strong>, é a base da web. Ele define a estrutura e o conteúdo de uma página, usando tags para organizar o texto, imagens e outros elementos. <em>Dominar o HTML é o primeiro passo para criar sites.</em></p>
+  <h2>Fundamentos do HTML</h2>
+  <p>Cada página web que você visita é construída com HTML. Ele utiliza um sistema de tags para "marcar" diferentes partes do conteúdo. Por exemplo, a tag **<p>** cria um parágrafo e a tag **<h1>** cria um título principal.</p>
+  <p>Aqui temos um exemplo de texto que está **<mark>destacado</mark>**. Isso é útil para chamar a atenção para um ponto importante.</p>
+  <p>A tag **<small>** é usada para texto que deve ser menor. <small>Este é um texto com letra pequena.</small></p>
+  <hr>
+
+  <h1>Seção 2: A Estrutura de Uma Página</h1>
+  <p>A estrutura básica do HTML é composta por tags como **<html>**, **<head>**, e **<body>**. A tag **<head>** contém informações sobre a página que não são exibidas, como o título, enquanto a tag **<body>** contém todo o conteúdo visível.</p>
+  <h2>A Importância dos Títulos</h2>
+  <p>Os títulos, de **<h1>** a **<h6>**, não são apenas para formatação visual. Eles organizam o conteúdo de forma hierárquica, o que é fundamental para a acessibilidade e para o SEO (Otimização para Mecanismos de Busca).</p>
+  <p>Exemplo de um parágrafo com uma **<del>palavra deletada</del>** e **<ins>uma palavra inserida</ins>**. Isso mostra revisões no conteúdo.</p>
+  <hr>
+
+  <h1>Seção 3: Listas em HTML</h1>
+  <p>As listas são uma maneira eficiente de organizar informações. Existem dois tipos principais de listas: as **não ordenadas** e as **ordenadas**.</p>
+  <h2>Lista Não Ordenada</h2>
+  <p>Uma lista não ordenada utiliza a tag **<ul>** e exibe os itens com marcadores (geralmente bolinhas). A seguir, um exemplo:</p>
+  <ul>
+    <li>HTML é a base da web.</li>
+    <li>CSS estiliza a página.</li>
+    <li>JavaScript adiciona interatividade.</li>
+  </ul>
+  <h2>Lista Ordenada</h2>
+  <p>Uma lista ordenada utiliza a tag **<ol>** e numera os itens automaticamente. Veja o exemplo:</p>
+  <ol>
+    <li>Primeiro passo: Estrutura.</li>
+    <li>Segundo passo: Estilo.</li>
+    <li>Terceiro passo: Funcionalidade.</li>
+  </ol>
+  <hr>
+
+  <h1>Seção 4: Citações e Abreviaturas</h1>
+  <p>É possível formatar citações e abreviaturas de forma semântica em HTML, melhorando a compreensão do conteúdo por navegadores e leitores de tela.</p>
+  <h2>Citações</h2>
+  <p>Para citações longas que se destacam, usamos a tag **<blockquote>**. Por exemplo:</p>
+  <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+    A tag blockquote é usada para indicar que o texto incluído é uma citação longa de outra fonte.
+  </blockquote>
+  <p>Já para citações curtas, no meio do texto, usamos a tag **<q>**. Como em: Um desenvolvedor disse, **<q>O código é poesia</q>**.</p>
+  <h2>Abreviaturas</h2>
+  <p>A tag **<abbr>** é ideal para abreviações. O atributo `title` mostra o texto completo quando o mouse passa por cima.</p>
+  <p>O **<abbr title="World Wide Web">WWW</abbr>** foi inventado por Tim Berners-Lee.</p>
+  <hr>
+  
+  <h1>Seção 1: O Que É HTML?</h1>
+  <p>HTML, ou <strong>Linguagem de Marcação de Hipertexto</strong>, é a base da web. Ele define a estrutura e o conteúdo de uma página, usando tags para organizar o texto, imagens e outros elementos. <em>Dominar o HTML é o primeiro passo para criar sites.</em></p>
+  <h2>Fundamentos do HTML</h2>
+  <p>Cada página web que você visita é construída com HTML. Ele utiliza um sistema de tags para "marcar" diferentes partes do conteúdo. Por exemplo, a tag **<p>** cria um parágrafo e a tag **<h1>** cria um título principal.</p>
+  <p>Aqui temos um exemplo de texto que está **<mark>destacado</mark>**. Isso é útil para chamar a atenção para um ponto importante.</p>
+  <p>A tag **<small>** é usada para texto que deve ser menor. <small>Este é um texto com letra pequena.</small></p>
+  <hr>
+  
+  <h1>Seção 2: A Estrutura de Uma Página</h1>
+  <p>A estrutura básica do HTML é composta por tags como **<html>**, **<head>**, e **<body>**. A tag **<head>** contém informações sobre a página que não são exibidas, como o título, enquanto a tag **<body>** contém todo o conteúdo visível.</p>
+  <h2>A Importância dos Títulos</h2>
+  <p>Os títulos, de **<h1>** a **<h6>**, não são apenas para formatação visual. Eles organizam o conteúdo de forma hierárquica, o que é fundamental para a acessibilidade e para o SEO (Otimização para Mecanismos de Busca).</p>
+  <p>Exemplo de um parágrafo com uma **<del>palavra deletada</del>** e **<ins>uma palavra inserida</ins>**. Isso mostra revisões no conteúdo.</p>
+  <hr>
+  
+  <h1>Seção 3: Listas em HTML</h1>
+  <p>As listas são uma maneira eficiente de organizar informações. Existem dois tipos principais de listas: as **não ordenadas** e as **ordenadas**.</p>
+  <h2>Lista Não Ordenada</h2>
+  <p>Uma lista não ordenada utiliza a tag **<ul>** e exibe os itens com marcadores (geralmente bolinhas). A seguir, um exemplo:</p>
+  <ul>
+    <li>HTML é a base da web.</li>
+    <li>CSS estiliza a página.</li>
+    <li>JavaScript adiciona interatividade.</li>
+  </ul>
+  <h2>Lista Ordenada</h2>
+  <p>Uma lista ordenada utiliza a tag **<ol>** e numera os itens automaticamente. Veja o exemplo:</p>
+  <ol>
+    <li>Primeiro passo: Estrutura.</li>
+    <li>Segundo passo: Estilo.</li>
+    <li>Terceiro passo: Funcionalidade.</li>
+  </ol>
+  <hr>
+  
+  <h1>Seção 4: Citações e Abreviaturas</h1>
+  <p>É possível formatar citações e abreviaturas de forma semântica em HTML, melhorando a compreensão do conteúdo por navegadores e leitores de tela.</p>
+  <h2>Citações</h2>
+  <p>Para citações longas que se destacam, usamos a tag **<blockquote>**. Por exemplo:</p>
+  <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+    A tag blockquote é usada para indicar que o texto incluído é uma citação longa de outra fonte.
+  </blockquote>
+  <p>Já para citações curtas, no meio do texto, usamos a tag **<q>**. Como em: Um desenvolvedor disse, **<q>O código é poesia</q>**.</p>
+  <h2>Abreviaturas</h2>
+  <p>A tag **<abbr>** é ideal para abreviações. O atributo `title` mostra o texto completo quando o mouse passa por cima.</p>
+  <p>O **<abbr title="World Wide Web">WWW</abbr>** foi inventado por Tim Berners-Lee.</p>
+  <hr>
+  
+  <h3>Sub-seção de Exemplo</h3>
+  <p>Este é um parágrafo de exemplo para preencher o espaço. É importante praticar a escrita de diferentes tipos de conteúdo.</p>
+  <p>Outro parágrafo. Lembre-se, cada tag `<p>` cria um novo bloco de texto.</p>
+  <h4>Título de Nível 4</h4>
+  <p>Esta é uma linha de texto com uma <br> quebra de linha. A tag **<br>** não tem fechamento.</p>
+  <h5>Título de Nível 5</h5>
+  <p>Aqui temos um texto com <ins>palavras inseridas</ins> e outras <del>palavras deletadas</del>.</p>
+  <h6>Título de Nível 6</h6>
+  <p>Exemplo de texto <sub>subscrito</sub> e texto <sup>sobrescrito</sup>. Útil para fórmulas químicas ou matemáticas.</p>
+  <p>A tag **<pre>** preserva a formatação exata do texto.</p>
+  <pre>
+    Texto pré-formatado
+    mantém os espaços e
+    as quebras de linha.
+  </pre>
+  <p>Outro exemplo de texto. Este texto é **<b>apenas negrito</b>**, sem importância semântica. O texto a seguir é **<strong>importante</strong>**.</p>
+  <p>A **<i>tag i</i>** é para texto itálico, enquanto **<em>a tag em</em>** é para ênfase.</p>
+  <p>Este é um <abbr title="Abreviação">abreviatura</abbr> para testar a tag **<abbr>**. </p>
+  <p>Endereço de exemplo:</p>
+  <address>
+    Rua da Programação, 456<br>
+    Bairro do Código, Cidade Tecnológica<br>
+    País dos Desenvolvedores
+  </address>
+  <hr>
+
+  <h3>Sub-seção de Exemplo</h3>
+  <p>Este é um parágrafo de exemplo para preencher o espaço. É importante praticar a escrita de diferentes tipos de conteúdo.</p>
+  <p>Outro parágrafo. Lembre-se, cada tag `<p>` cria um novo bloco de texto.</p>
+  <h4>Título de Nível 4</h4>
+  <p>Esta é uma linha de texto com uma <br> quebra de linha. A tag **<br>** não tem fechamento.</p>
+  <h5>Título de Nível 5</h5>
+  <p>Aqui temos um texto com <ins>palavras inseridas</ins> e outras <del>palavras deletadas</del>.</p>
+  <h6>Título de Nível 6</h6>
+  <p>Exemplo de texto <sub>subscrito</sub> e texto <sup>sobrescrito</sup>. Útil para fórmulas químicas ou matemáticas.</p>
+  <p>A tag **<pre>** preserva a formatação exata do texto.</p>
+  <pre>
+    Texto pré-formatado
+    mantém os espaços e
+    as quebras de linha.
+  </pre>
+  <p>Outro exemplo de texto. Este texto é **<b>apenas negrito</b>**, sem importância semântica. O texto a seguir é **<strong>importante</strong>**.</p>
+  <p>A **<i>tag i</i>** é para texto itálico, enquanto **<em>a tag em</em>** é para ênfase.</p>
+  <p>Este é um <abbr title="Abreviação">abreviatura</abbr> para testar a tag **<abbr>**. </p>
+  <p>Endereço de exemplo:</p>
+  <address>
+    Rua da Programação, 456<br>
+    Bairro do Código, Cidade Tecnológica<br>
+    País dos Desenvolvedores
+  </address>
+  <hr>
+
+  <h1>Seção 1: O Que É HTML?</h1>
+  <p>HTML, ou <strong>Linguagem de Marcação de Hipertexto</strong>, é a base da web. Ele define a estrutura e o conteúdo de uma página, usando tags para organizar o texto, imagens e outros elementos. <em>Dominar o HTML é o primeiro passo para criar sites.</em></p>
+  <h2>Fundamentos do HTML</h2>
+  <p>Cada página web que você visita é construída com HTML. Ele utiliza um sistema de tags para "marcar" diferentes partes do conteúdo. Por exemplo, a tag **<p>** cria um parágrafo e a tag **<h1>** cria um título principal.</p>
+  <p>Aqui temos um exemplo de texto que está **<mark>destacado</mark>**. Isso é útil para chamar a atenção para um ponto importante.</p>
+  <p>A tag **<small>** é usada para texto que deve ser menor. <small>Este é um texto com letra pequena.</small></p>
+  <hr>
+  
+  <h1>Seção 2: A Estrutura de Uma Página</h1>
+  <p>A estrutura básica do HTML é composta por tags como **<html>**, **<head>**, e **<body>**. A tag **<head>** contém informações sobre a página que não são exibidas, como o título, enquanto a tag **<body>** contém todo o conteúdo visível.</p>
+  <h2>A Importância dos Títulos</h2>
+  <p>Os títulos, de **<h1>** a **<h6>**, não são apenas para formatação visual. Eles organizam o conteúdo de forma hierárquica, o que é fundamental para a acessibilidade e para o SEO (Otimização para Mecanismos de Busca).</p>
+  <p>Exemplo de um parágrafo com uma **<del>palavra deletada</del>** e **<ins>uma palavra inserida</ins>**. Isso mostra revisões no conteúdo.</p>
+  <hr>
+  
+  <h1>Seção 3: Listas em HTML</h1>
+  <p>As listas são uma maneira eficiente de organizar informações. Existem dois tipos principais de listas: as **não ordenadas** e as **ordenadas**.</p>
+  <h2>Lista Não Ordenada</h2>
+  <p>Uma lista não ordenada utiliza a tag **<ul>** e exibe os itens com marcadores (geralmente bolinhas). A seguir, um exemplo:</p>
+  <ul>
+    <li>HTML é a base da web.</li>
+    <li>CSS estiliza a página.</li>
+    <li>JavaScript adiciona interatividade.</li>
+  </ul>
+  <h2>Lista Ordenada</h2>
+  <p>Uma lista ordenada utiliza a tag **<ol>** e numera os itens automaticamente. Veja o exemplo:</p>
+  <ol>
+    <li>Primeiro passo: Estrutura.</li>
+    <li>Segundo passo: Estilo.</li>
+    <li>Terceiro passo: Funcionalidade.</li>
+  </ol>
+  <hr>
+
+  <h1>Seção 4: Citações e Abreviaturas</h1>
+  <p>É possível formatar citações e abreviaturas de forma semântica em HTML, melhorando a compreensão do conteúdo por navegadores e leitores de tela.</p>
+  <h2>Citações</h2>
+  <p>Para citações longas que se destacam, usamos a tag **<blockquote>**. Por exemplo:</p>
+  <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+    A tag blockquote é usada para indicar que o texto incluído é uma citação longa de outra fonte.
+  </blockquote>
+  <p>Já para citações curtas, no meio do texto, usamos a tag **<q>**. Como em: Um desenvolvedor disse, **<q>O código é poesia</q>**.</p>
+  <h2>Abreviaturas</h2>
+  <p>A tag **<abbr>** é ideal para abreviações. O atributo `title` mostra o texto completo quando o mouse passa por cima.</p>
+  <p>O **<abbr title="World Wide Web">WWW</abbr>** foi inventado por Tim Berners-Lee.</p>
+  <hr>
+  
+  <h3>Sub-seção de Exemplo</h3>
+  <p>Este é um parágrafo de exemplo para preencher o espaço. É importante praticar a escrita de diferentes tipos de conteúdo.</p>
+  <p>Outro parágrafo. Lembre-se, cada tag `<p>` cria um novo bloco de texto.</p>
+  <h4>Título de Nível 4</h4>
+  <p>Esta é uma linha de texto com uma <br> quebra de linha. A tag **<br>** não tem fechamento.</p>
+  <h5>Título de Nível 5</h5>
+  <p>Aqui temos um texto com <ins>palavras inseridas</ins> e outras <del>palavras deletadas</del>.</p>
+  <h6>Título de Nível 6</h6>
+  <p>Exemplo de texto <sub>subscrito</sub> e texto <sup>sobrescrito</sup>. Útil para fórmulas químicas ou matemáticas.</p>
+  <p>A tag **<pre>** preserva a formatação exata do texto.</p>
+  <pre>
+    Texto pré-formatado
+    mantém os espaços e
+    as quebras de linha.
+  </pre>
+  <p>Outro exemplo de texto. Este texto é **<b>apenas negrito</b>**, sem importância semântica. O texto a seguir é **<strong>importante</strong>**.</p>
+  <p>A **<i>tag i</i>** é para texto itálico, enquanto **<em>a tag em</em>** é para ênfase.</p>
+  <p>Este é um <abbr title="Abreviação">abreviatura</abbr> para testar a tag **<abbr>**. </p>
+  <p>Endereço de exemplo:</p>
+  <address>
+    Rua da Programação, 456<br>
+    Bairro do Código, Cidade Tecnológica<br>
+    País dos Desenvolvedores
+  </address>
+  <hr>
+
+  <h1>Seção 1: O Que É HTML?</h1>
+  <p>HTML, ou <strong>Linguagem de Marcação de Hipertexto</strong>, é a base da web. Ele define a estrutura e o conteúdo de uma página, usando tags para organizar o texto, imagens e outros elementos. <em>Dominar o HTML é o primeiro passo para criar sites.</em></p>
+  <h2>Fundamentos do HTML</h2>
+  <p>Cada página web que você visita é construída com HTML. Ele utiliza um sistema de tags para "marcar" diferentes partes do conteúdo. Por exemplo, a tag **<p>** cria um parágrafo e a tag **<h1>** cria um título principal.</p>
+  <p>Aqui temos um exemplo de texto que está **<mark>destacado</mark>**. Isso é útil para chamar a atenção para um ponto importante.</p>
+  <p>A tag **<small>** é usada para texto que deve ser menor. <small>Este é um texto com letra pequena.</small></p>
+  <hr>
+  
+  <h1>Seção 2: A Estrutura de Uma Página</h1>
+  <p>A estrutura básica do HTML é composta por tags como **<html>**, **<head>**, e **<body>**. A tag **<head>** contém informações sobre a página que não são exibidas, como o título, enquanto a tag **<body>** contém todo o conteúdo visível.</p>
+  <h2>A Importância dos Títulos</h2>
+  <p>Os títulos, de **<h1>** a **<h6>**, não são apenas para formatação visual. Eles organizam o conteúdo de forma hierárquica, o que é fundamental para a acessibilidade e para o SEO (Otimização para Mecanismos de Busca).</p>
+  <p>Exemplo de um parágrafo com uma **<del>palavra deletada</del>** e **<ins>uma palavra inserida</ins>**. Isso mostra revisões no conteúdo.</p>
+  <hr>
+  
+  <h1>Seção 3: Listas em HTML</h1>
+  <p>As listas são uma maneira eficiente de organizar informações. Existem dois tipos principais de listas: as **não ordenadas** e as **ordenadas**.</p>
+  <h2>Lista Não Ordenada</h2>
+  <p>Uma lista não ordenada utiliza a tag **<ul>** e exibe os itens com marcadores (geralmente bolinhas). A seguir, um exemplo:</p>
+  <ul>
+    <li>HTML é a base da web.</li>
+    <li>CSS estiliza a página.</li>
+    <li>JavaScript adiciona interatividade.</li>
+  </ul>
+  <h2>Lista Ordenada</h2>
+  <p>Uma lista ordenada utiliza a tag **<ol>** e numera os itens automaticamente. Veja o exemplo:</p>
+  <ol>
+    <li>Primeiro passo: Estrutura.</li>
+    <li>Segundo passo: Estilo.</li>
+    <li>Terceiro passo: Funcionalidade.</li>
+  </ol>
+  <hr>
+
+  <h1>Seção 4: Citações e Abreviaturas</h1>
+  <p>É possível formatar citações e abreviaturas de forma semântica em HTML, melhorando a compreensão do conteúdo por navegadores e leitores de tela.</p>
+  <h2>Citações</h2>
+  <p>Para citações longas que se destacam, usamos a tag **<blockquote>**. Por exemplo:</p>
+  <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">
+    A tag blockquote é usada para indicar que o texto incluído é uma citação longa de outra fonte.
+  </blockquote>
+  <p>Já para citações curtas, no meio do texto, usamos a tag **<q>**. Como em: Um desenvolvedor disse, **<q>O código é poesia</q>**.</p>
+  <h2>Abreviaturas</h2>
+  <p>A tag **<abbr>** é ideal para abreviações. O atributo `title` mostra o texto completo quando o mouse passa por cima.</p>
+  <p>O **<abbr title="World Wide Web">WWW</abbr>** foi inventado por Tim Berners-Lee.</p>
+  <hr>
+
+  <h3>Sub-seção de Exemplo</h3>
+  <p>Este é um parágrafo de exemplo para preencher o espaço. É importante praticar a escrita de diferentes tipos de conteúdo.</p>
+  <p>Outro parágrafo. Lembre-se, cada tag `<p>` cria um novo bloco de texto.</p>
+  <h4>Título de Nível 4</h4>
+  <p>Esta é uma linha de texto com uma <br> quebra de linha. A tag **<br>** não tem fechamento.</p>
+  <h5>Título de Nível 5</h5>
+  <p>Aqui temos um texto com <ins>palavras inseridas</ins> e outras <del>palavras deletadas</del>.</p>
+  <h6>Título de Nível 6</h6>
+  <p>Exemplo de texto <sub>subscrito</sub> e texto <sup>sobrescrito</sup>. Útil para fórmulas químicas ou matemáticas.</p>
+  <p>A tag **<pre>** preserva a formatação exata do texto.</p>
+  <pre>
+    Texto pré-formatado
+    mantém os espaços e
+    as quebras de linha.
+  </pre>
+  <p>Outro exemplo de texto. Este texto é **<b>apenas negrito</b>**, sem importância semântica. O texto a seguir é **<strong>importante</strong>**.</p>
+  <p>A **<i>tag i</i>** é para texto itálico, enquanto **<em>a tag em</em>** é para ênfase.</p>
+  <p>Este é um <abbr title="Abreviação">abreviatura</abbr> para testar a tag **<abbr>**. </p>
+  <p>Endereço de exemplo:</p>
+  <address>
+    Rua da Programação, 456<br>
+    Bairro do Código, Cidade Tecnológica<br>
+    País dos Desenvolvedores
+  </address>
+  <hr>
+  
+  </body>
+</html>
